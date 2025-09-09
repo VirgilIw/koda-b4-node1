@@ -1,10 +1,10 @@
 // buat folder
 // const fs = require("fs");
 
-import { buatFile } from "./buatMusic.js";
-import { buatFolder } from "./makefolder.js";
-import { pindahFile } from "./moveFile.js";
+import { buatFile } from "./lib/buatMusic.js";
+import { buatFolder } from "./lib/makeFolder.js";
+import { pindahFile } from "./lib/moveFile.js";
 
 buatFile();
 buatFolder();
-pindahFile;
+pindahFile();
